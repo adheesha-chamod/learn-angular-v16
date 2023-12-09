@@ -1,0 +1,65 @@
+##### Setup #####
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+node -v
+npm -v
+npx -v
+tsc -v
+
+npm install -g typescript
+
+npm uninstall -g @angular/cli
+npm install -g @angular/cli@16.0.0 or npm install -g @angular/cli
+ng version
+ng new <app name>
+
+ng serve
+ng serve --open
+
+
+
+##### Other #####
+
+ng generate component <folder/combonent_name or component_name>
+
+
+
+##### Git / GitHub #####
+
+git remote add origin <repo link>
+git remote -v
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
